@@ -19,5 +19,6 @@ install.packages("roxygen2")
 #' plot(slope_raster, main="Slope")
 #' plot(aspect_raster, main="Aspect")
 #' }
+#'
 library(roxygen2)
 roxygenize()

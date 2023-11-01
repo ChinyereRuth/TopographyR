@@ -1,0 +1,67 @@
+
+# Overview
+
+This repository contains an R function for calculating the slope and
+aspect from a Digital Elevation Model (DEM) using the `raster` package.
+The function `calculate_slope_aspect` takes a raster object representing
+the DEM as input and returns two rasters representing slope and aspect.
+
+## Function description
+
+### Function used
+
+\`\`\`R calculate_slope_aspect(dem)
+
+## Input
+
+DEM for North Western Territories (NWT): A raster object representing
+the Digital Elevation Modelof North Western Territory for Canada in
+2022.
+
+### Output
+
+list (slope, aspect): A list containing two rasters:
+
+- slope: A raster representing the calculated slope in degrees.
+- aspect: A raster representing the calculated aspect in degrees.
+
+## Usage
+
+### Load the raster package:
+
+install.packages(“raster”) library(raster)
+
+### Load the DEM of NWT
+
+elevation_raster \<- raster(“/path/to/your/DEM.tif”)
+
+### Use the function which was derived
+
+result \<- calculate_slope_aspect(elevation_raster)
+
+### Access the result
+
+slope_raster \<- result$slope aspect_raster <- result$aspect
+
+### Plot the result
+
+plot(slope_raster, main=“Slope”) plot(aspect_raster, main=“Aspect”)
+
+## Example usage
+
+# Load DEM
+
+elevation_raster \<-
+raster(“/Users/chinyereottah/Desktop/Env/TopographyR/data-raw/NWTDEM_2022.tif”)
+
+# Calculate slope and aspect
+
+result \<- calculate_slope_aspect(elevation_raster)
+
+# Access the slope and aspect rasters
+
+slope_raster \<- result$slope aspect_raster <- result$aspect
+
+# Plot the results
+
+plot(slope_raster, main=“Slope”) plot(aspect_raster, main=“Aspect”)
