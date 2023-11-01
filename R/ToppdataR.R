@@ -51,3 +51,9 @@ plot(aspect_raster, main="Aspect")
 devtools::check()
 
 devtools::build()
+
+usethis::use_readme_rmd()
+
+# web page for your package, use the following function.
+usethis::use_pkgdown_github_pages()
+
