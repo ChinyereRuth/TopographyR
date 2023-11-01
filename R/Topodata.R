@@ -1,4 +1,4 @@
-' Calculate Slope and Aspect from a Digital Elevation Model (DEM)
+# Calculate Slope and Aspect from a Digital Elevation Model (DEM)
 #'
 #' This function computes both slope and aspect from a Digital Elevation Model (DEM).
 #'
@@ -26,12 +26,12 @@
 #'
 #' @author Chinyere Ottah
 #'
-#' @keywords spatial
+#' @keywords Topography
 #'
 #' @examples
 #' \dontrun{
 #' # Example usage
-#' elevation_raster <- raster("/Users/chinyereottah/Desktop/Mac/SpatialR/data-raw/CanDEM.tif")
+#' elevation_raster <- raster("/Users/chinyereottah/Desktop/Env/TopographyR/data-raw/NWTDEM.tif")
 #' result <- calculate_slope_aspect(elevation_raster)
 #' slope_raster <- result$slope
 #' aspect_raster <- result$aspect
@@ -43,3 +43,4 @@ calculate_slope_aspect <- function(dem) {
 }
 
 install.packages("roxygen2")
+devtools::document()
