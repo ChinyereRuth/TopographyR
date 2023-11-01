@@ -4,6 +4,7 @@ usethis::use_mit_license()
 usethis::use_github()
 devtools::check()
 usethis::use_data_raw()
+usethis::use_data
 
 #Writing the first function
 
@@ -57,3 +58,4 @@ usethis::use_readme_rmd()
 # web page for your package, use the following function.
 usethis::use_pkgdown_github_pages()
 
+devtools::document()
