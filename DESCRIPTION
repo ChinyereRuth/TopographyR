@@ -1,10 +1,10 @@
 Package: TopographyR
-Title: It looks at topographical anlysis in R (One Line, Title Case)
+Title: Topographical anlysis in R (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person("Chinyere", "Ottah", , "Chinyere.Ottah@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: A template created for deriving slope and aspect using a function created with DEM.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
