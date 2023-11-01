@@ -31,7 +31,7 @@
 #' @examples
 #' \dontrun{
 #' # Example usage
-#' elevation_raster <- raster("/Users/chinyereottah/Desktop/Env/TopographyR/data-raw/NWTDEM.tif")
+#' elevation_raster <- raster("/Users/chinyereottah/Desktop/Env/TopographyR/data-raw/NWTDEM_2022.tif")
 #' result <- calculate_slope_aspect(elevation_raster)
 #' slope_raster <- result$slope
 #' aspect_raster <- result$aspect
