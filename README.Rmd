@@ -1,6 +1,6 @@
 ---
 output: github_document
-Title: Calculate Slope and Aspect from Digital Elevation Model (DEM)
+Title: Calculating Slope and Aspect from Digital Elevation Model (DEM)
 Author: Chinyere Ottah
 
 ---
@@ -150,6 +150,6 @@ plot(slope_raster, main="Slope")
 plot(aspect_raster, main="Aspect")
 ```
 
-
+git commit --no-verify
 
 
