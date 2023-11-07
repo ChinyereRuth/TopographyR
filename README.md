@@ -160,5 +160,3 @@ plot(aspect_raster, main="Aspect")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
-
-git commit –no-verify
